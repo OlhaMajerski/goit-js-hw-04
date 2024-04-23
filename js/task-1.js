@@ -1,9 +1,8 @@
-
 function isEnoughCapacity(products, containerSize){
   let totalQuntity = 0; 
   // sorting keys in object(products)
   for (const key in products) {
-    totalQuntity =+ products[key] // to get the value of the key use []
+    totalQuntity =+ products[key]; // to get the value of the key use []
   }
   return totalQuntity <= containerSize;
 }
